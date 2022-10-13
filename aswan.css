@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  /* background-color: rgb(7, 129, 145); */
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(./pdrmpattern2-egyptpattern-boom-02b.jpg);
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  max-width: 100%;
+  /* background-image:linear-gradient(to right, rgb(255, 26, 106),rgb(69, 202, 255)) ; */
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 25px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  transition: all 0.2s;
+}
+nav ul li a:hover {
+  color: #fe4066;
+  border-bottom: #fe4066 1px solid;
+}
+.activehome {
+  background-color: #fe4066;
+  color: rgb(255, 255, 255);
+}
+.activehome:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: #ffffff 2px solid;
+}
+nav ul button {
+  border-style: none;
+  background-color: gold;
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+nav ul button:hover {
+  background-color: #45caff;
+  color: black;
+  cursor: pointer;
+}
+
+/* body */
+.auto-input{
+    text-align: center;
+    margin-top: 150px;
+    font-family: "Cairo", sans-serif;
+    color: #fb6c28;
+  
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+  font-family: "Cairo", sans-serif;
+  color: white;
+}
+.phInvestment {
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.phEStsmr {
+  max-width: 300px;
+  /* margin-bottom: 25px; */
+  margin-top: -150px;
+  display: flex;
+  margin-left: 50px;
+}
+.phEStsmr2 {
+  max-width: 200px;
+  /* margin-bottom: 25px; */
+  margin-top: -75px;
+  display: flex;
+  margin-left: 1000px;
+}
+/* section 2 */
+.div2sec {
+  background-color: #fb6c28;
+  max-width: 100%;
+  max-height: 300px;
+  margin-top: 20px;
+}
+.div2sec p {
+  width: 800px;
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  color: aliceblue;
+}
+
+.sec2 button{
+    border-style: none;
+    background-color: #fb6c28;
+    padding: 8px;
+    color: white;
+    transition: all 0.5s;
+    margin-left: 550px;
+    margin-top: 100px;
+margin-bottom: 100px;
+  }
+ .sec2  button:hover {
+    background-color: #45caff;
+    color: black;
+    cursor: pointer;
+
+}
+/* footer */
+footer{
+    background-color: #fb6c28;
+    max-width:100% ;
+    max-height: 600px;
+    margin-top: 20px;
+}
+footer .logoFooter{
+    width: 100px;
+    margin-top: -300px;
+}
+footer ul {
+    align-items: flex-start;
+    padding: 25px;
+    max-width: 100%;
+    
+    /* background-image:linear-gradient(to right, rgb(255, 26, 106),rgb(69, 202, 255)) ; */
+  }
+  footer ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+  footer ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 350px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    transition: all 0.2s;
+}
+  footer ul li a:hover {
+    color: #0c0909;
+    border-bottom: #e2002d 1px solid;
+  }
+   .allres {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #0c0909;
+    max-width: 100%;
+    /* max-height: 30px; */
+    /* margin-top: 20px; */
+}
+/* contactus */
+footer ul form{
+    margin-top: -200px;
+    margin-left: 600px;
+    display: flexbox;
+}
+footer ul form input{
+padding: 5px;
+border-style: none;
+outline: none;
+box-sizing: border-box;
+border: 1px solid rgba(168, 160, 160, 0.623);
+}
+.subjectContact{
+padding-bottom:100px ;
+}
+footer ul form input:focus {
+    border: 3px solid rgb(4, 2, 122);
+}
+footer button{
+    border-style: none;
+    background-color: #862337;
+    padding: 8px;
+    color: white;
+    transition: all 0.5s;
+margin-top: 20px;
+}
+footer ul form button:hover{
+background-color: #45caff;
+color: black;
+cursor: pointer;
+}
+.send{
+    margin-top: -200px;
+}
